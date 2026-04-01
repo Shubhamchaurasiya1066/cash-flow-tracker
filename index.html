@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cash Flow Tracker</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>💰 Cash Flow Tracker</h1>
+
+        <div class="salary-box">
+            <input type="number" id="salaryInput" placeholder="Enter Salary">
+            <button onclick="setSalary()">Set</button>
+        </div>
+        <div class="expense-box">
+            <input type="Text" id="expenseName" placeholder="Expense Name">
+            <input type="number" id="expenseAmount" placeholder="Amount">
+            <button onclick="addExpense()">Add</button>
+        </div>
+        <ul id="expenseList"></ul>
+        <div>
+            <p>Total Salary :₹<span id="salary">0</span></p>
+            <p>Tota Expense :₹<span id="totalExpense">0</span></p>
+            <p>Remaining :₹<span id="balance">0</span></p>
+        </div>
+        <canvas id="myChart"></canvas>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
