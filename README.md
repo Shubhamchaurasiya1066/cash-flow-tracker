@@ -33,7 +33,7 @@ It allows users to add salary, track expenses, and view remaining balance in rea
 ---
 
 ## 📸 Demo
-(screenshot.png)
+![Cash Flow Tracker](screenshot.png)
 
 ---
 
